@@ -1,1 +1,74 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact - Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <a href="index.html" class="uk-navbar-item uk-logo">zacharymeyer.dev</a>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="uk-active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation Bar Ends -->
+
+    <!-- Contact Section -->
+    <section class="uk-section">
+        <div class="uk-container">
+            <h1>Contact Me</h1>
+            <p>Feel free to reach out for inquiries, collaborations, or just to say hello!</p>
+            
+            <!-- Contact Form -->
+            <form action="submit_contact_form.php" method="post">
+                <fieldset class="uk-fieldset">
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="uk-margin">
+                        <button type="submit" class="uk-button uk-button-default">Send Message</button>
+                    </div>
+                </fieldset>
+            </form>
+
+            <!-- Contact Information -->
+            <div>
+                <p>Email: email@example.com</p>
+                <p>Phone: +123 456 7890</p>
+                <!-- Add additional contact details here -->
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section Ends -->
+
+    <!-- Footer -->
+    <footer class="uk-footer">
+        <div class="uk-container">
+            <p>&copy; 2024 Zachary Meyer. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+</body>
+</html>
