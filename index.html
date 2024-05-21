@@ -13,7 +13,7 @@
 </head>
 <body>
 <!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     <div class="uk-navbar-left">
         <a href="index.html" class="uk-navbar-item uk-logo uk-light">zacharymeyer.dev</a>
     </div>
@@ -25,59 +25,42 @@
         </ul>
     </div>
 </nav>
-
 <!-- Navigation Bar Ends  -->
 
 <!-- Navigation Bar Mobile -->
 <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">zacharymeyer.dev</a>
+        <a href="index.html" class="uk-navbar-item uk-logo uk-light">zacharymeyer.dev</a>
     </div>
     <div class="uk-navbar-right">
-
         <ul class="uk-navbar-nav uk-light">
             <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
-
         </ul>
-
     </div>
 </nav>
-<!-- Change This -->
 <div id="offcanvas-nav" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
-            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
-            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
-            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
-
+            <li><a href="index.html" uk-scroll>Home</a></li>
+            <li><a href="about.html" uk-scroll>About</a></li>
+            <li><a href="projects.html" uk-scroll>Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-
-
-
-
     </div>
 </div>
-
 <!-- Navigation Bar Mobile Ends -->
+
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Zachary Meyer, a programmer, <br>computer scientist, and an artificial intelligence studier.</h1>
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Zachary Meyer, a programmer, <br>computer scientist, and an artificial intelligence enthusiast.</h1>
     <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
-
-
 </section>
-
 <!-- Home Ends -->
 <br>
-
 
 <!-- About Me -->
 <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-    <!-- Customized introduction paragraph with breaks -->
     <p class="uk-margin-xlarge-left uk-margin-xlarge-right">
         Hi! I'm Zachary Meyer, a high school student with a deep passion for programming, computer science, and artificial intelligence. <br><br>
         I have developed proficiency in a range of programming languages and technologies, including Java, JavaScript, Python, HTML, CSS, Pinecone, and Microsoft Azure. <br><br>
@@ -85,48 +68,38 @@
         Whether it's building dynamic websites, exploring the realms of AI, or creating efficient code solutions, I am always eager to learn and grow in this ever-evolving field. <br><br>
         Join me as I share my projects, experiences, and learnings on this platform.
     </p>
-    <a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="linkedin"></a>
+    <a href="https://instagram.com/yourprofile" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a>
+    &nbsp;<a href="https://dribbble.com/yourprofile" class="uk-light uk-button-text" uk-icon="dribbble"></a>
+    &nbsp;<a href="https://github.com/yourprofile" class="uk-button-text uk-light" uk-icon="github"></a>
+    &nbsp;<a href="https://linkedin.com/in/yourprofile" class="uk-light uk-button-text" uk-icon="linkedin"></a>
 </section>
 <!-- About Me Ends -->
-
-
-
-
-
-</section>
 
 <!-- Projects Section -->
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 <section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
-
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
+    <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+    <p class="uk-margin-xlarge-left">Projects that I've been working on</p>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Project 1</h4>
+            <p>Description of your first project goes here.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://linktoyourproject.com">
+                <span uk-icon="icon: link"></span> Website Link
+            </a>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
-
-
-
+            <h4>Project 2</h4>
+            <p>Description of your second project goes here.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://linktoyourproject.com">
+                <span uk-icon="icon: link"></span> Website Link
+            </a>
+        </div>
+    </div>
     <br>
-
-
 </section>
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
 <!-- Projects Section Ends -->
-    
+
 </body>
 </html>
