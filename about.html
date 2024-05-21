@@ -10,12 +10,12 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="uk-navbar-container" uk-navbar>
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
         <div class="uk-navbar-left">
-            <a href="index.html" class="uk-navbar-item uk-logo">zacharymeyer.dev</a>
+            <a href="index.html" class="uk-navbar-item uk-logo uk-light">zacharymeyer.dev</a>
         </div>
         <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
+            <ul class="uk-navbar-nav uk-light">
                 <li><a href="index.html">Home</a></li>
                 <li class="uk-active"><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -26,18 +26,25 @@
     <!-- Navigation Bar Ends -->
 
     <!-- About Content -->
-    <section class="uk-section">
+    <section class="uk-section uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
         <div class="uk-container">
-            <h1>About Me</h1>
-            <p>Hi, I'm Zachary Meyer. I'm a programmer, computer scientist, and an artificial intelligence enthusiast. My journey in tech started with a simple curiosity and has evolved into a series of challenging and rewarding projects...</p>
+            <h1 class="uk-light">About Me</h1>
+            <p class="uk-light">Hi, I'm Zachary Meyer. I'm a programmer, computer scientist, and an artificial intelligence enthusiast. My journey in tech started with a simple curiosity and has evolved into a series of challenging and rewarding projects...</p>
             <!-- Add more about your background, experience, and any other relevant information -->
+            <p class="uk-light">
+                I have developed proficiency in a range of programming languages and technologies, including Java, JavaScript, Python, HTML, CSS, Pinecone, and Microsoft Azure. My journey in tech started with simple curiosity and has since evolved into a series of challenging and rewarding projects. Whether it's building dynamic websites, exploring the realms of AI, or creating efficient code solutions, I am always eager to learn and grow in this ever-evolving field.
+            </p>
+            <a href="https://instagram.com/yourprofile" class="uk-light uk-button-text" uk-icon="instagram"></a>
+            &nbsp;<a href="https://dribbble.com/yourprofile" class="uk-light uk-button-text" uk-icon="dribbble"></a>
+            &nbsp;<a href="https://github.com/yourprofile" class="uk-light uk-button-text" uk-icon="github"></a>
+            &nbsp;<a href="https://linkedin.com/in/yourprofile" class="uk-light uk-button-text" uk-icon="linkedin"></a>
         </div>
     </section>
     <!-- About Content Ends -->
 
     <!-- Footer -->
-    <footer class="uk-footer">
-        <div class="uk-container">
+    <footer class="uk-section uk-section-secondary uk-section-xsmall">
+        <div class="uk-container uk-text-center">
             <p>&copy; 2024 Zachary Meyer. All Rights Reserved.</p>
         </div>
     </footer>
@@ -47,4 +54,3 @@
     <script src="js/uikit-icons.js"></script>
 </body>
 </html>
-
