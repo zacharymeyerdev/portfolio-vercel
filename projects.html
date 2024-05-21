@@ -10,12 +10,12 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="uk-navbar-container" uk-navbar>
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
         <div class="uk-navbar-left">
-            <a href="index.html" class="uk-navbar-item uk-logo">zacharymeyer.dev</a>
+            <a href="index.html" class="uk-navbar-item uk-logo uk-light">zacharymeyer.dev</a>
         </div>
         <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
+            <ul class="uk-navbar-nav uk-light">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li class="uk-active"><a href="projects.html">Projects</a></li>
@@ -26,41 +26,36 @@
     <!-- Navigation Bar Ends -->
 
     <!-- Projects Section -->
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+        <p class="uk-margin-xlarge-left">Projects that I've been working on</p>
 
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- Replace the placeholders with your actual projects -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>Project 1</h4>
+                <p>Description of your first project goes here.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="https://linktoyourproject.com">
+                    <span uk-icon="icon: link"></span> Website Link
+                </a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>Project 2</h4>
+                <p>Description of your second project goes here.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="https://linktoyourproject.com">
+                    <span uk-icon="icon: link"></span> Website Link
+                </a>
+            </div>
         </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
-
-
-
-    <br>
-
-
-</section>
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
-<!-- Projects Section Ends -->
+        <br>
+    </section>
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Projects Section Ends -->
 
     <!-- Footer -->
-    <footer class="uk-footer">
-        <div class="uk-container">
+    <footer class="uk-section uk-section-secondary uk-section-xsmall">
+        <div class="uk-container uk-text-center">
             <p>&copy; 2024 Zachary Meyer. All Rights Reserved.</p>
         </div>
     </footer>
@@ -70,4 +65,3 @@
     <script src="js/uikit-icons.js"></script>
 </body>
 </html>
-
